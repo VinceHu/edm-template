@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,21 +16,22 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>Newsletter</h1>
-        <p>Softtek Newsletter</p>
-
-        <p class="view"><a href="https://github.com/VinceHu/edm-template">View the Project on GitHub <small>VinceHu/edm-template</small></a></p>
-
+        <h1 class="header">Newsletter</h1>
+        <p class="header">Softtek Newsletter</p>
 
         <ul>
-          <li><a href="https://github.com/VinceHu/edm-template/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/VinceHu/edm-template/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/VinceHu/edm-template">View On <strong>GitHub</strong></a></li>
+          <li class="download"><a class="buttons" href="https://github.com/VinceHu/edm-template/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/VinceHu/edm-template/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/VinceHu/edm-template">View On GitHub</a></li>
         </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/VinceHu">VinceHu</a></p>
+
+
       </header>
       <section>
         <h1>
-<a id="edm-邮件营销的htmlcss-点滴" class="anchor" href="#edm-%E9%82%AE%E4%BB%B6%E8%90%A5%E9%94%80%E7%9A%84htmlcss-%E7%82%B9%E6%BB%B4" aria-hidden="true"><span class="octicon octicon-link"></span></a>EDM 邮件营销的html&amp;css 点滴</h1>
+<a id="edm-template" class="anchor" href="#edm-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>EDM Template</h1>
 
 <blockquote>
 <p>最近公司每个月都会制作公司的Newsletter，发送给客户做edm营销。记得第一家公司每周都会做edm，也是自己工作的一个重要部分。做的当中会发现有很多坑，很多css属性不支持，各个邮件服务器的显示上也会存在很多的差异，所以在这里把这些记录下来</p>
@@ -62,16 +64,15 @@
 <p><a href="http://jsfiddle.net/vincehu/8mez2ztt/">demo</a>    </p>
 </li>
 <li><p>html使用<code>utf—8</code> 编码</p></li>
-<li> html代码中不能包含<code>JavaScript</code> 和 <code>Flash</code>
-</li>
+<li><p>html代码中不能包含<code>JavaScript</code> 和 <code>Flash</code>     </p></li>
+<li><p>设计时尽量做到简洁，不适用背景图片，需要背景图片的地方使用背景颜色，或者通过css控制，在支持css 背景图片的客户端中显示背景图片，不支持的时候显示纯色的背景颜色</p></li>
 </ol>
       </section>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/VinceHu">VinceHu</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
   </body>
 </html>
