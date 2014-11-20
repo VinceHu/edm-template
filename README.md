@@ -21,6 +21,7 @@
     </tbody>
 </table>
 ```
-[demo](http://jsfiddle.net/vincehu/8mez2ztt/)       
-3.  html使用`utf—8` 编码
-4.  html代码中不能包含`JavaScript` 和 `Flash`
+[demo](http://jsfiddle.net/vincehu/8mez2ztt/)    
+
+3. html使用`utf—8` 编码
+4. html代码中不能包含`JavaScript` 和 `Flash`
