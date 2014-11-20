@@ -10,11 +10,15 @@
       <tr>
         <td>
           <table width="750" align="center" cellpadding="0" cellspacing="0" border="0">
-          EDM 内容区域
+            <tbody>
+                <tr>
+                    <td>EDM 内容区域</td>
+                </tr>
+            </tbody>
           </table>
         </td>
-      <tr>
+      </tr>
     </tbody>
 </table>
 
-
+[demo](http://jsfiddle.net/vincehu/8mez2ztt/)
