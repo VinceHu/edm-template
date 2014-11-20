@@ -3,9 +3,9 @@
 
 ###如何制作edm
 
-```css
+
 body { margin: 0; padding: 0;}
-    table.Newsletter {font: 12px/18px arial; color: #4b4b4b }
-    table.Newsletter a { text-decoration: none; }
-    table.Newsletter a:hover { color: #bd2d34; text-decoration: underline;}
-    table.Newsletter img{display: block}
+table.Newsletter {font: 12px/18px arial; color: #4b4b4b }
+table.Newsletter a { text-decoration: none; }
+table.Newsletter a:hover { color: #bd2d34; text-decoration: underline;}
+table.Newsletter img{display: block}
