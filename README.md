@@ -4,7 +4,7 @@
 ###edm html设计规范
 1. 宽度保持在600到800px范围
 2. html布局请使用表格布局，居中排版
->```html
+    ```html
 <table width="100%" cellpadding="0" cellspacing="0" border="0">
     <tbody>
       <tr>
@@ -20,8 +20,8 @@
       </tr>
     </tbody>
 </table>
->```
->[demo](http://jsfiddle.net/vincehu/8mez2ztt/)    
+    ```
+    [demo](http://jsfiddle.net/vincehu/8mez2ztt/)    
 
 3.  html使用`utf—8` 编码
 4.  html代码中不能包含`JavaScript` 和 `Flash`
