@@ -32,4 +32,5 @@
 
 ###css 设计规范
 1. 所有css必须写在元素标记内，且不能使用用于布局的css属性：display、position、float
-2. 
+2. 这是很重要的，不是所有的CSS属性的支持。在电子邮件客户端CSS的支持是有限的，不如IE6。例如，背景图像不被前景2007/10支持时，Windows Live Hotmail和Gmail。所以，你需要知道什么是支持的。下面的链接是通过reputatable在线电子邮件管理服务编译的CSS支持广泛的名单 - 运动监视器。这个CSS列表经常更新。       
+[CSS列表](https://www.campaignmonitor.com/css/)
